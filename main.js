@@ -1,6 +1,6 @@
-const header = document.querySelector('#header');
+const main = document.querySelector('#mainvisual');
 
-header.animate(
+main.animate(
   {
     opacity: [0, 1]
   },

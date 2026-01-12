@@ -55,3 +55,11 @@ nav{
 nav li{
   margin-left: 40px;
 }
+
+#footer{
+  text-align: center;
+  padding: 10px;
+  background-color: #eae7e7;
+  font-weight: 300;
+  font-size: x-small;
+}

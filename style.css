@@ -65,6 +65,49 @@ nav li{
   margin-bottom: 60px;
 }
 
+#about .section-title{
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.section-title .ja{
+  color: #f78c2f;
+  margin-top: 10px;
+}
+
+.flex-about{
+  margin-bottom: 60px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #f78c2f;
+}
+
+.left-about{
+  width: 49%;
+  margin-left: 3%;
+}
+
+.left-about h1{
+  margin-bottom: 40px;
+}
+
+.left-about p{
+  margin-bottom: 30px;
+}
+
+.right-about{
+  width: 45%;
+  margin-left: 3%;
+}
+
+.right-about img{
+  width: 600px;
+}
+
 #footer{
   text-align: center;
   padding: 10px;

@@ -83,7 +83,12 @@ nav li{
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background-color: #f78c2f;
+  background-image: url(Baudroie/visual.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  aspect-ratio: 16 / 5;
+  width: 100%;
 }
 
 .left-about{

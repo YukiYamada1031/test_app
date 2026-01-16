@@ -113,6 +113,24 @@ nav li{
   width: 600px;
 }
 
+.more{
+  width: 200px;
+  padding-left: 20px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #1e1e1e;
+  font-weight: 700;
+}
+
+.more::after{
+  content: "＞";
+  padding: 3px;
+  background-color: black;
+  border-radius: 50%;
+  color: #f78c2f;
+  margin-left: 60px;
+}
+
 #footer{
   text-align: center;
   padding: 10px;

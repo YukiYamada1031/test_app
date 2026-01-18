@@ -132,13 +132,13 @@ nav li{
   margin-left: 60px;
 }
 
-#service{
+#service-dis{
   padding-bottom: 80px;
   margin-bottom: 100px;
   border-bottom: 2px dotted #646363;
 }
 
-#service .section-title{
+#service-dis .section-title{
   margin-bottom: 40px;
   font-size: x-large;
 }
@@ -149,14 +149,36 @@ nav li{
   margin-bottom: 20px;
 }
 
-#service p{
+#service-sub p{
   padding-bottom: 80px;
 }
 
 .flex-service{
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
+  padding-bottom: 80px;
+  margin-bottom: 100px;
+  border-bottom: 2px dotted #646363;
+}
+
+.item .ed{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #f78c2f;
+  font-style: italic;
+  font-weight: 800;
+  font-size: large;
+}
+
+.item .menu{
+  margin-bottom: 5px;
+  font-size: xx-large;
+}
+
+.item p{
+  font-size: larger;
+  margin-bottom: 30px;
 }
 
 .item{
@@ -177,7 +199,15 @@ nav li{
   margin-bottom: 120px;
 }
 
+.flex-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.flex-info img{
+  width: 550px;
+}
 
 #footer{
   text-align: center;
